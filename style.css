@@ -1,0 +1,21 @@
+.accordion{
+    padding: 3px;
+    background-color: burlywood; 
+    width: 50%;
+}
+.accordion_section{
+   background-color: bisque;
+   
+}
+.accordion_texts{
+    height: 0;
+    overflow: hidden;
+}
+.accordion_section.opened .accordion_texts{
+    height: 100px;
+}
+.plus {
+    float:right;
+}
+
+
